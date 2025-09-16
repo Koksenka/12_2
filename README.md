@@ -57,13 +57,16 @@ SELECT * FROM information_schema.user_privileges WHERE GRANTEE="'sys_temp'@'loca
 ```
 SYSTEM mysql -u sys_temp -p
 SELECT user();
+
 ```
- ![](https://github.com/Koksenka/12_2/blob/master/7.png)
+![](https://github.com/Koksenka/12_2/blob/master/7.png)
  
 1.7.	По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
+
 ```
 wget https://downloads.mysql.com/docs/sakila-db.zip
 unzip sakila-db.zip
+
 ```
 ![](https://github.com/Koksenka/12_2/blob/master/8.png)
 
@@ -74,11 +77,12 @@ source /home/WORKS/12_2/sakila-db/sakila-data.sql
 SHOW DATABASES;
 ```
 
- ![](https://github.com/Koksenka/12_2/blob/master/9.png)
+![](https://github.com/Koksenka/12_2/blob/master/9.png)
  
 1.9. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 ```
 SHOW TABLES;
+
 ```
 ![](https://github.com/Koksenka/12_2/blob/master/10.png)
 
