@@ -51,7 +51,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost' WITH GRANT OPTION;
 SELECT * FROM information_schema.user_privileges WHERE GRANTEE="'sys_temp'@'localhost'";
 ```
 ![](https://github.com/Koksenka/12_2/blob/master/6.png)
-```
+
 
 1.6.	Переподключитесь к базе данных от имени sys_temp.
 ```
@@ -97,5 +97,4 @@ customer         | customer_id
 ```
 ## Решение 2
 
-```
 ![](https://github.com/Koksenka/12_2/blob/master/11.png)
